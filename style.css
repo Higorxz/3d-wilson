@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+:root{ 
+
+--vermelho: #F5423B;
+--verde: #65F0C1;
+--preto: #000000;
+--amarelo:#F0ED69;
+
+--botao-ativo: rgba(101, 152, 240, 1);
+--botao-ativo: rgba(59, 245, 245, 1);
+--botao-ativo: rgba(0, 0, 0, 1);
+--botao-ativo: rgba(240, 237, 105, 1);
+--botao-inativo: rgba(101, 152, 240, 0.5);
+--botao-inativo: rgba(59, 245, 245, 0.5);
+--botao-inativo: rgba(0, 0, 0, 0.5);
+--botao-inativo: rgba(240, 237, 105, 0.5);
+
+}
