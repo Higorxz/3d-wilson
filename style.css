@@ -17,3 +17,8 @@
 --botao-inativo: rgba(240, 237, 105, 0.5);
 
 }
+body{
+    background-color: var(--preto);
+    color: var(--verde);
+    font-family: 'Chakra Pech', "guitarra de protesto";
+}
