@@ -22,3 +22,8 @@ body{
     color: var(--verde);
     font-family: 'Chakra Pech', "guitarra de protesto";
 }
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
