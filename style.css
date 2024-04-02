@@ -69,7 +69,7 @@ body{
 }
 .ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
+    border-bottom: 4px solid var(--amarelo);
 }
 .abas-textos{
     background-color: var(--branco);
