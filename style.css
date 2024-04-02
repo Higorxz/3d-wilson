@@ -37,7 +37,7 @@ body{
     font-size: 32px;
 }
 .titulo-principal span{
-    color: var(--preto);
+    color: var(--verde);
 }
 .botao{
     font-family: "Chakra Peth" sans-serif;
