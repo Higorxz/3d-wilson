@@ -18,8 +18,8 @@
 
 }
 body{
-    background-color: var(--preto);
-    color: var(--verde);
+    background-color: var(--verde);
+    color: var(--vermelho);
     font-family: 'Chakra Pech', "guitarra de protesto";
 }
 .conteudo-principal{
@@ -37,7 +37,7 @@ body{
     font-size: 32px;
 }
 .titulo-principal span{
-    color: var(--verde);
+    color: var(--preto);
 }
 .botao{
     font-family: "Chakra Peth" sans-serif;
@@ -51,7 +51,7 @@ body{
     width: 100%;
     border-bottom: 4px solid var(--botao --botao-ativo);
     border-left: 2px solid var(--botao-ativo);
-    border-right: 2px solid var(--botao-inativo);
+    border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
 .botao:first-child{
