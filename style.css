@@ -41,7 +41,7 @@ body{
 }
 .botao{
     font-family: "Chakra Peth" sans-serif;
-    background-color: var(--branco);
+    background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
     justify-content: center;
