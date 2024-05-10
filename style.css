@@ -18,9 +18,9 @@
 
 }
 body{
-    background-color: var(--branco);
-    color: var(--vermelho);
-    font-family: 'Chakra Pech', "guitarra de protesto";
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', 'Sans-Serif';
 }
 .conteudo-principal{
     display: flex;
@@ -37,10 +37,11 @@ body{
     font-size: 32px;
 }
 .titulo-principal span{
-    color: var(--verde);
+    color: var(--verde-limao);
 }
+
 .botao{
-    font-family: "Chakra Peth" sans-serif;
+    font-family: 'Chakra Petch', Sans-Serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
@@ -55,50 +56,47 @@ body{
     border-top: none;
 }
 .botao:first-child{
-    border-radius: 40px 0 0 ;
-
+    border-radius: 40px 40px 0 0;
 }
-
-.botao:last-child{
-    border-radius:0px 40px 0 0;
-}
-
 .botoes{
     display: block;
-
 }
 .ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--preto);
+    border-bottom: 4px solid var(--verde);
 }
 .abas-textos{
-    background-color: var(--branco);
+    background-color: var(--cor-de-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
-
 .aba-conteudo.ativo{
     display: block;
-
 }
-
 .aba-conteudo{
     display: none;
 }
-
 .aba-conteudo-titulo-principal{
     font-size: 28px;
     text-align: center;
-
 }
 .aba-conteudo-titulo-secundario{
     text-align: center;
-    color: var(--vermelho);
+    color: var(--rosa);
     text-transform: uppercase;
 }
-@media screen and (min-width:768px){
+.contador{
+    text-align: center;
+    font-size: 20px;
+}
+@media screen and (min-width: 768px){
     .botoes{
         display: flex;
     }
+    .botao:first-child{
+        border-radius: 40px 0 0 0;
+    }
+    .botao:last-child{
+        border-radius: 0 40px 0 0;
+    }  
 }
-
